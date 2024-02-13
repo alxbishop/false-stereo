@@ -1,6 +1,6 @@
 ### False Stereo pairs - UP42 SDK
 
-This python tool provides a way to discover false stereo pairs in Airbus satellite catalog data using the UP42 SDK. It can contains teo python files.
+This python tool provides a way to discover false stereo pairs against Airbus satellite catalog data using the UP42 SDK. It can contains teo python files.
  - find_false_stereo_for_terminal.py: this file can be run using a terminal.
  - find_false_stereo.py: best run directly in a code editor.
 
