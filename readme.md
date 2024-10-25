@@ -1,7 +1,12 @@
 ### False Stereo pairs - UP42 SDK
 
 This python program provides a way to discover false stereo pairs against Airbus satellite catalog data using the UP42 SDK. It contains two python files.
- - find_false_stereo_program.py : this file can be run using a terminal.
+ - The program only run on geojson vector files as input
+ - find_false_stereo_program.py : 
+    - this file can be run using a terminal
+    - this file can run on aoi that have multiple features of type "Polygon" in the geojson file but each feature will need to have a unique feature id. 
+    { "type": "Feature", "properties": {"site":"DC", "id":"1"}, "geometry": { "type": "Polygon", .....
+
  - find_false_stereo_notebook.ipynb : best run directly in a code editor.
 
 
