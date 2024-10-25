@@ -4,10 +4,11 @@ This python program provides a way to discover false stereo pairs against Airbus
  - The program only run on geojson vector files as input
  - find_false_stereo_program.py : 
     - this file can be run using a terminal
-    - this file can run on aoi that have multiple features of type "Polygon" in the geojson file but each feature will need to have a unique feature id. 
+    - this file can run on aoi files that have multiple geometries/features of type "Polygon" in the geojson file. But be sure that the feature "prperties" have a unique feature "id". See example bellow and in inupt folder. 
     { "type": "Feature", "properties": {"site":"DC", "id":"1"}, "geometry": { "type": "Polygon", .....
 
  - find_false_stereo_notebook.ipynb : best run directly in a code editor.
+    - this file can only run on geojson files with one feature
 
 
 The logic is as follows:
